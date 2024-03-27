@@ -40,8 +40,8 @@ name: Build WavGenerator.exe
 
 on:
   push:
-    #paths:
-    #  - "WavGenerator/**"
+    paths:
+      - "WavGenerator/**"
 jobs:
   build:
     strategy:
